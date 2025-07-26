@@ -1,0 +1,44 @@
+    *{
+        margin: 0;
+        padding: 0;
+    }
+    .logo{
+        width: 4vw;
+        border-radius: 50%;
+        padding: 10px 10px;
+        
+    }
+    .head{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        background-color:darkseagreen;
+    }
+    .menu{
+        gap: 25px;
+        display: flex;
+        font-size:x-large;
+        font-style: italic;
+        font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        padding-right: 25px;
+    }
+    .body{
+        padding:10vh 10vw;
+    }
+    .card{
+        background-color:darkseagreen;
+        width: 20vw;
+        padding: 20px;
+        border-radius: 10px;
+    }
+    .cardImg{
+        width: 100%;
+        border-radius: 10px;
+    }
+    .card_con{
+        margin-top: 10vh;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        row-gap: 30px;
+    }
