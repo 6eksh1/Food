@@ -1,7 +1,7 @@
 import { createBrowserRouter, Outlet, RouterProvider } from "react-router";
 import NavBar from "./components/Navbar";
 import Body from "./components/body";
-import Contact from "./components/contact";
+import Contact from "./components/Contact";
 import About from "./components/About";
 
 function App()
